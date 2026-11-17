@@ -1,6 +1,6 @@
 # opengame — single process serves WebSocket + static client on :2567.
 # Zero-build: the client is ES modules + CDN importmaps; nothing to compile.
-FROM node:20-alpine
+FROM node:22-alpine
 
 ENV NODE_ENV=production
 WORKDIR /app
